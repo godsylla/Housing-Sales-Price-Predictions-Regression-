@@ -46,4 +46,4 @@ We will be looking for the following things:
 
 ### Project Feedback + Evaluation
 
-[See our DSI projects guide here.]()
+[See our DSI projects guide here.](https://git.generalassemb.ly/dsi-projects/readme)
