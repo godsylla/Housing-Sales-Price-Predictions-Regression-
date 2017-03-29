@@ -34,13 +34,13 @@ We will be looking for the following things:
 ## Requirements
 
 - Materials must be in a clearly commented Jupyter notebook
-- You should demonstrate:
+- You should demonstrate the ability to:
 
-    - Ability to thoroughly understand the dataset; be explicit about any assumptions you make in the face of uncertainty.
-    - Ability to clean, impute, and explore the dataset.
-    - Justification of your modeling choices and feature engineering.
-    - Plotting and visualizing wherever you can, and interpreting what you see.
-    - The ability to clearly outline your modeling strategy to answer the question and explain the results clearly.
+    - Thoroughly understand the dataset; be explicit about any assumptions you make in the face of uncertainty.
+    - Clean, impute, and explore the dataset.
+    - Justify your modeling choices and feature engineering.
+    - Plot, visualize, and interpret your data logically.
+    - Clearly outline your modeling strategy in response to the questions and explain your results.
 
 ---
 
