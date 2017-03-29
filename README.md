@@ -36,11 +36,12 @@ We will be looking for the following things:
 - Materials must be in a clearly commented Jupyter notebook
 - You should demonstrate the ability to:
 
-    - Thoroughly understand the dataset; be explicit about any assumptions you make in the face of uncertainty.
+    - Analyze a complex dataset & explicitly state your assumptions.
     - Clean, impute, and explore the dataset.
     - Justify your modeling choices and feature engineering.
     - Plot, visualize, and interpret your data logically.
-    - Clearly outline your modeling strategy in response to the questions and explain your results.
+    - Clearly outline your modeling strategy in response to the questions
+    - Explain your results to a technical audience.
 
 ---
 
