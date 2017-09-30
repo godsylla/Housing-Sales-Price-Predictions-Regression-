@@ -244,7 +244,7 @@ MasVnrType: Masonry veneer type
        BrkCmn	Brick Common
        BrkFace	Brick Face
        CBlock	Cinder Block
-       None	None
+       None 	None
        Stone	Stone
 	
 MasVnrArea: Masonry veneer area in square feet
@@ -376,7 +376,7 @@ HalfBath: Half baths above grade
 
 Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
 
-Kitchen: Kitchens above grade
+KitchenAbvGr: Kitchens above grade
 
 KitchenQual: Kitchen quality
 
