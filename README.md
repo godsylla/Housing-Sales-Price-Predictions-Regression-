@@ -36,7 +36,7 @@ Use the information to buy homes that are likely to sell for more than the initi
 - http://cdnassets.hw.net/b6/3d/047accdd4174a4965051631d7900/cvv-2010-2011-professional-desmoinesia.pdf
 
 ## Findings:
-**Features that were better predictors of SalePrice:**
+**Fixed Features that were better predictors of SalePrice:**
 While there were a total of 47 final features, I decided to look only at feature importances of > 0.0125, which is summarized in the table at the end of in Part03A. Based on the output, and ignoring the dummies aspect of certain categorical features, the following appear to be the best predictors of price:
     - Whether the home has a 2nd floor (`2ndFlrSF`, `1stFlrSF`)
     - The residential zoning (`MSZoning_RM`, which indicates medium density)
@@ -44,3 +44,10 @@ While there were a total of 47 final features, I decided to look only at feature
     - Year Built (how old the construction is)
     - Lot Frontage and Lot Area,
     - Above grade living area (GrLivArea)
+    
+**Renovatable Features that were better predictors of SalePrice (ipynb Part03-B):**
+- Room improvements 
+- Kitchen Quality improvements
+- Basement renovations
+- Heating renovations
+- Garage features
