@@ -1,4 +1,4 @@
-# Regression and Classification with the Ames Housing Data
+# Regression with the Ames Housing Data
 
 ---
 
@@ -35,6 +35,7 @@ Use the information to buy homes that are likely to sell for more than the initi
 - http://www.remodeling.hw.net/cost-vs-value/2010/west-north-central/des-moines-ia/
 - http://cdnassets.hw.net/b6/3d/047accdd4174a4965051631d7900/cvv-2010-2011-professional-desmoinesia.pdf
 
+## Findings:
 **Features that were better predictors of SalePrice:**
 While there were a total of 47 final features, I decided to look only at feature importances of > 0.0125, which is summarized in the table at the end of in Part03A. Based on the output, and ignoring the dummies aspect of certain categorical features, the following appear to be the best predictors of price:
     - Whether the home has a 2nd floor (`2ndFlrSF`, `1stFlrSF`)
