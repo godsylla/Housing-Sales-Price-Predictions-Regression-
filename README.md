@@ -32,19 +32,21 @@ Use the information to buy homes that are likely to sell for more than the initi
 - Train a model on pre-2010 data and evaluate its performance on the 2010 houses.
 - Characterize and evaluate the model. (How does it perform and what are the best estimates of price?)
 
-## Citations:
+## External Sources Referenced:
 - http://www.remodeling.hw.net/cost-vs-value/2010/west-north-central/des-moines-ia/
 - http://cdnassets.hw.net/b6/3d/047accdd4174a4965051631d7900/cvv-2010-2011-professional-desmoinesia.pdf
 
 ## Findings:
-**Fixed Features that were better predictors of SalePrice:**
-While there were a total of 47 final features, I decided to look only at feature importances of > 0.0125, which is summarized in the table at the end of in Part03A. Based on the output, and ignoring the dummies aspect of certain categorical features, the following appear to be the best predictors of price:
+**Fixed Features that were better predictors of SalePrice (ipynb Part03-A):**
+While there were a total of 47 final features out of the initial 81, I decided to look only at feature importances of > 0.0125, which is summarized in the table at the end of in Part03-A. Based on the output, and ignoring the dummies aspect of certain categorical features, the following appear to be the best predictors of price:
     - Whether the home has a 2nd floor (`2ndFlrSF`, `1stFlrSF`)
     - The residential zoning (`MSZoning_RM`, which indicates medium density)
-    - Basements (BsmtUnfSF, BsmtFinSF1, TotalBsmtSF),
+    - Basements (BsmtUnfSF, BsmtFinSF1, `TotalBsmtSF`),
     - Year Built (how old the construction is)
     - Lot Frontage and Lot Area,
-    - Above grade living area (GrLivArea)
+    - Above grade living area (`GrLivArea`)
+ Train score (R^2 score) > 0.90
+ Test score (R^2 score) > 0.80
     
 **Renovatable Features that were better predictors of SalePrice (ipynb Part03-B):**
 - Room improvements 
@@ -52,3 +54,5 @@ While there were a total of 47 final features, I decided to look only at feature
 - Basement renovations
 - Heating renovations
 - Garage features
+Train score (R^2 score) > 0.60
+Test score (R^2 score) > 0.70
